@@ -6,12 +6,15 @@ font-family: 'Dancing Script', cursive;
     margin: 0;
 }
 
+html, body{
+    height: 100%;
+}
 
 .site-name{
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
-    color: black;
     padding-top: 20px;
+    color: black;
     padding-left: 20px;
     padding-bottom: 20px;
 }
