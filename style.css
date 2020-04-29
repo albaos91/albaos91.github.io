@@ -41,20 +41,18 @@ body{
 .my_pic{
     margin-left: 45px;
     padding-left: 20px
+    border-radius: 20px
 }
 
-.cv_button{
-    margin-bottom: 20px;
+button{
+    margin-right: 80px;
     padding: 10px;
-    margin-left: 90px;
-    background-color: clear;
-    color: black;
+    color:white;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    background: none;
+    background: whitesmoke;
     border-radius: 25px;
-    
 }
 
 .row {
