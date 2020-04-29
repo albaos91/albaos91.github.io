@@ -19,6 +19,7 @@ html, body{
     color: white;
     padding-left: 20px;
     padding-bottom: 20px;
+    margin: 0;
 }
 
 .site-name:hover{
@@ -56,5 +57,5 @@ button{
 }
 
 .row {
-    margin-bottom: 280px;
+    margin-bottom: 100%;
 }
