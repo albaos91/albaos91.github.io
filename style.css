@@ -9,6 +9,7 @@ font-family: 'Dancing Script', cursive;
 html, body{
     height: 100%;
 }
+/* Header styling */
 
 .site-name{
     font-family: 'Dancing Script', cursive;
@@ -30,15 +31,17 @@ ul {
     right: 60px;
 }
 
+/* Body styling */
+
 .my_pic{
     margin-left: 45px;
     padding-left: 20px
 }
 
-button{
+.cv_button{
     margin-bottom: 20px;
     padding: 10px;
-    margin-left: 25px;
+    margin-left: 90px;
     background-color: clear;
     color: black;
     text-align: center;
@@ -48,7 +51,6 @@ button{
     border-radius: 25px;
 }
 
-.footer {
-    position: relative;
-    top: 200px;
+.row {
+    margin-bottom: 260px;
 }
