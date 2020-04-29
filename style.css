@@ -9,13 +9,14 @@ font-family: 'Dancing Script', cursive;
 html, body{
     height: 100%;
 }
+
 /* Header styling */
 
 .site-name{
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
     padding-top: 20px;
-    color: black;
+    color: white;
     padding-left: 20px;
     padding-bottom: 20px;
 }
@@ -33,6 +34,10 @@ ul {
 
 /* Body styling */
 
+body{
+    background-image: url("https://wallpaperaccess.com/full/240945.jpg");
+}
+
 .my_pic{
     margin-left: 45px;
     padding-left: 20px
@@ -49,8 +54,9 @@ ul {
     font-weight: bold;
     background: none;
     border-radius: 25px;
+    
 }
 
 .row {
-    margin-bottom: 260px;
+    margin-bottom: 280px;
 }
