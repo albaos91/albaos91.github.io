@@ -14,7 +14,6 @@ html, body{
 
 .site-name{
     font-family: 'Dancing Script', cursive;
-    /*look into view width and view height(vw and vh)*/
     font-size: 40px;
     padding-top: 20px;
     color: white;
@@ -26,6 +25,7 @@ html, body{
 .site-name:hover{
     background-color: blanchedalmond;
     font-size: 30px;
+    color: black;
 
 }
 
@@ -50,8 +50,10 @@ body{
 
 .my_pic{
     border-radius: 50px;
-    position: absolute;
-    margin: 0 auto;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 60px; 
 }
 
 .button{    
@@ -60,10 +62,9 @@ body{
     border-radius: 20px;
     padding: 10px;
     font-weight: bold;
-    margin-left: 50px;
     position: relative;
+    top: 70px;
 }
-
 
 footer {
   position: absolute;

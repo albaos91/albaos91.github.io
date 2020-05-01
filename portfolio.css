@@ -1,0 +1,63 @@
+/* font-family: 'Dancing Script', cursive; 
+
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+html, body{
+    height: 100%;
+}
+
+/* Header styling */
+
+.site-name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    padding-top: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.site-name:hover{
+    background-color: blanchedalmond;
+    font-size: 30px;
+    color: black;
+
+}
+
+ul {
+    position: absolute;
+    right: 60px;
+}
+
+/* Body styling */
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/240945.jpg");
+    background-repeat: cover;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 50px;
+}
+
+.assignment{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+footer {
+    position: relative;
+    bottom: auto;
+    width: 100%;
+    margin-top: 50px;
+}
