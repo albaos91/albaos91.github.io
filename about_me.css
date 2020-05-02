@@ -69,9 +69,9 @@ body{
     color: darkmagenta;
 }
 
-.sticky-footer{
-    position: relative;
-    bottom: 0px;
+footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
 }
 
