@@ -38,7 +38,7 @@ ul {
 
 body{
     background-image: url("https://wallpaperaccess.com/full/240945.jpg");
-    background-repeat: cover;
+    background-repeat: no-repeat;
 }
 
 .frame{
@@ -57,15 +57,21 @@ body{
     left:64.5%;
     top: 39%;
     border-radius: 10px;
-
 }
 
-
-
-footer {
+.row{
     position: relative;
-    bottom: auto;
+    bottom: 60%;
+    right: 20%;
+}
+
+.blockquote{
+    color: darkmagenta;
+}
+
+.sticky-footer{
+    position: relative;
+    bottom: 0px;
     width: 100%;
-    margin-top: 60px;
 }
 
