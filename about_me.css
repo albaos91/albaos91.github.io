@@ -29,7 +29,7 @@ html, body{
 
 }
 
-ul {
+ul{
     position: absolute;
     right: 60px;
 }
@@ -41,31 +41,45 @@ body{
     background-repeat: no-repeat;
 }
 
-.frame{
-    width: 450px;
-    height: 600px;
+.container1{
     position: relative;
-    top: 70px;
-    left: 60%; 
+    width: 980px;
+}
+
+.frame{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 80%; 
     border-radius: 25px;
 }
 
-.grad_pic{
-    width: 325px;
-    height: 465px;
+.paper{
+    width: 350px;
+    height: 450px;
     position: absolute;
-    left:64.5%;
-    top: 39%;
-    border-radius: 10px;
+    left: 30%;
+    border-radius: 30px;
+
 }
 
-.row{
-    position: relative;
-    bottom: 60%;
-    right: 20%;
+.about_me{
+    width: 330px;
+    height: 350px;
+    position: absolute;
+    left: 31%;   
+    top: 80px;
+    background-color:transparent;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }
 
-.blockquote{
-    color: darkmagenta;
-}
-
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
