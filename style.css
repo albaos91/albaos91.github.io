@@ -56,18 +56,28 @@ body{
     top: 60px; 
 }
 
-.button{    
+.button1{    
     color: white;
     background-color: none;
     border-radius: 20px;
     padding: 10px;
     font-weight: bold;
-    position: relative;
-    top: 70px;
+    position: absolute;
+    top: 65%;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.button2{    
+    color: white;
+    background-color: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 75%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
