@@ -29,10 +29,6 @@ html, body{
 
 }
 
-ul {
-    position: absolute;
-    right: 60px;
-}
 
 /* Body styling */
 
@@ -41,7 +37,7 @@ body{
     background-repeat: cover;
 }
 
-.container1{
+.container{
     display: flex;
     flex-direction: column;
     justify-content: center;

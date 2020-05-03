@@ -29,16 +29,18 @@ html, body{
 
 }
 
-ul {
-    position: absolute;
-    right: 60px;
-}
-
 /* Body styling */
 
 body{
     background-image: url("https://wallpaperaccess.com/full/240945.jpg");
     background-repeat: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h2{
@@ -55,9 +57,9 @@ h2{
     width: 80%;
 }
 
-footer {
-    position: relative;
-    bottom: auto;
+
+footer{
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    margin-top: 50px;
 }
