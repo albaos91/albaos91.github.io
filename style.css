@@ -6,75 +6,80 @@
     margin: 0;
 } */
 
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 /* Header styling */
 
-.site-name{
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    padding-top: 20px;
-    color: white;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin: 0;
+.site-name {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  padding-top: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
-.site-name:hover{
-    background-color: blanchedalmond;
-    font-size: 30px;
-    color: black;
-
+.site-name:hover {
+  background-color: blanchedalmond;
+  font-size: 30px;
+  color: black;
 }
-
 
 /* Body styling */
 
-body{
-    background-image: url("https://wallpaperaccess.com/full/240945.jpg");
-    background-repeat: cover;
+body {
+  background-image: url("https://wallpaperaccess.com/full/240945.jpg");
+  background-repeat: cover;
+  position: relative;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.my_pic{
-    border-radius: 50px;
-    height: 200px;
-    width: 250px;
-    position: relative;
-    top: 60px; 
+/* no need for positions, use margins */
+.my_pic {
+  border-radius: 50px;
+  height: 200px;
+  width: 250px;
+  /* position: relative; */
+  margin-top: 60px;
 }
 
-.button1{    
-    color: white;
-    background-color: none;
-    border-radius: 20px;
-    padding: 10px;
-    font-weight: bold;
-    position: absolute;
-    top: 65%;
+/* no need for positions, use margins */
+.button1 {
+  color: white;
+  background-color: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  /* position: absolute;
+  top: 65%; */
+  margin-top: 65px;
 }
 
-.button2{    
-    color: white;
-    background-color: none;
-    border-radius: 20px;
-    padding: 10px;
-    font-weight: bold;
-    position: absolute;
-    top: 75%;
+/* no need for positions, use margins */
+.button2 {
+  color: white;
+  background-color: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  /* position: absolute;
+  top: 75%; */
+  margin-top: 50px;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

@@ -6,60 +6,62 @@
     margin: 0;
 } */
 
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 /* Header styling */
 
-.site-name{
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    padding-top: 20px;
-    color: white;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin: 0;
+.site-name {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  padding-top: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
-.site-name:hover{
-    background-color: blanchedalmond;
-    font-size: 30px;
-    color: black;
-
+.site-name:hover {
+  background-color: blanchedalmond;
+  font-size: 30px;
+  color: black;
 }
 
 /* Body styling */
 
-body{
-    background-image: url("https://wallpaperaccess.com/full/240945.jpg");
-    background-repeat: cover;
+body {
+  background-image: url("https://wallpaperaccess.com/full/240945.jpg");
+  background-repeat: cover;
+  position: relative;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blanchedalmond;
-    text-align: center;
-    padding: 50px;
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 50px;
 }
 
-.assignment{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+.assignment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
-
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+footer {
+  /* set the position of footer to fixed | this position will be fixed to the bottom of the parents container which is body */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

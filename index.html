@@ -1,71 +1,101 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="reset.css">
-        <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>Github Personal Bio Page</title>
+  </head>
 
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <title>Github Personal Bio Page</title>
-    </head>
+  <body>
+    <!---------     Website header      -------->
+    <header>
+      <h1 class="site-name">Alba Osmanaj's Website</h1>
 
-    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="./index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="./aboutme.html">About Me</a>
+            <a
+              class="nav-item nav-link"
+              href="./contact.html"
+              tabindex="-1"
+              aria-disabled="true"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
 
-  <!---------     Website header      -------->
-        <header>
-            <h1 class="site-name">Alba Osmanaj's Website</h1>
-            
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-item nav-link active" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-                  <a class="nav-item nav-link" href="./aboutme.html">About Me</a>
-                  <a class="nav-item nav-link" href="./contact.html" tabindex="-1" aria-disabled="true">Contact</a>
-                </div>
-              </div>
-          </nav>
-        </header>
-       
-        <br> 
-  <!---------     Body content      -------->
-        <section class="container">
-          
-          <img src="./assets/864167D8-207A-44D6-8DD2-AEF36A52E7F2.JPG" class="my_pic"/>
+    <br />
+    <!---------     Body content      -------->
+    <section class="container">
+      <img
+        src="./assets/864167D8-207A-44D6-8DD2-AEF36A52E7F2.JPG"
+        class="my_pic"
+      />
 
-              <br>
-              <br>
-   
-              <button class="button1">
-                <a href="https://my.indeed.com/p/albao-8o92wa4">Download My CV</a>
-              </button>
-              
-              <button class="button2">
-                <a href="https://github.com/albaos91">Github</a>
-              </button>
-        </section> 
+      <br />
+      <br />
 
-   <!---------     Footer      -------->
-   
-                <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-                  <div class="container text-center">
-                    <small>Made with ❤️️ by Me ©2020</small>
-                  </div>
-                </footer>
+      <button class="button1">
+        <a href="https://my.indeed.com/p/albao-8o92wa4">Download My CV</a>
+      </button>
 
-            
+      <button class="button2">
+        <a href="https://github.com/albaos91">Github</a>
+      </button>
+    </section>
 
+    <!---------     Footer      -------->
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Made with ❤️️ by Me ©2020</small>
+      </div>
+    </footer>
 
-    </body>
-
+    <!-- Put your script tags right before the end of the body tag, so page loads before the scripts are read -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
