@@ -1,59 +1,107 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" href="./about_me.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="reset.css">
-        <link rel="stylesheet" href="./about_me.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>Github Personal Bio Page</title>
+  </head>
 
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <title>Github Personal Bio Page</title>
-    </head>
+  <body>
+    <!-- Website header-->
+    <header>
+      <h1 class="site-name">Alba Osmanaj's Website</h1>
 
-    <body>
-
-<!-- Website header-->
-        <header>
-            <h1 class="site-name">Alba Osmanaj's Website</h1>
-            
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-item nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-                  <a class="nav-item nav-link active" href="./aboutme.html">About Me</a>
-                  <a class="nav-item nav-link" href="./contact.html">Contact</a>
-                </div>
-              </div>
-            </nav>
-        </header>
-       
-        <br> 
-        
-        <section class="container">
-        <img src="./assets/Screen Shot 2020-04-30 at 10.18.59 PM.jpg" class="frame">
-
-        <img src="./assets/about_me paper.jpg" class="paper">
-
-        <textarea class="about_me" cols="50" rows="10">My name is Alba Osmanaj.I was born in Albania and moved to U.S with my family when I was 15. I was the only one in my family that knew English. I translated everything and took care of all the administrative stuff, till this day. We lived in Brooklyn (BK in the house) and went to college in the city where I got my BBA in Marketing Management. I got a job opportunity here in Austin and moved 1.5 years ago. Being that I work for a tech company and I come across coding language often, I decided to take Full Stack Flex Bootcamp course. I want to pivot my career and become a developer.</textarea>
-      
-        </section>
-
-
-        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-          <div class="container text-center">
-            <small>Made with ❤️️ by Me ©2020</small>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="./index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link active" href="./aboutme.html"
+              >About Me</a
+            >
+            <a class="nav-item nav-link" href="./contact.html">Contact</a>
           </div>
-        </footer>
-   
-    </body>
+        </div>
+      </nav>
+    </header>
+
+    <br />
+
+    <section class="container">
+      <!-- use rows and cols for bootstrap containers -->
+      <div class="row">
+        <!-- class col-md is a bootstrap class that allows the column to wrap when the max container width hits 768pixels -->
+        <div class="col-md">
+          <!-- Make a container for your text area to sit within image -->\
+          <div
+            class="mycontainerforimageandtextarea"
+            style="position: relative;"
+          >
+            <img src="./assets/about_me paper.jpg" class="paper" />
+
+            <textarea class="about_me" cols="50" rows="10">
+      My name is Alba Osmanaj.I was born in Albania and moved to U.S with my family when I was 15. I was the only one in my family that knew English. I translated everything and took care of all the administrative stuff, till this day. We lived in Brooklyn (BK in the house) and went to college in the city where I got my BBA in Marketing Management. I got a job opportunity here in Austin and moved 1.5 years ago. Being that I work for a tech company and I come across coding language often, I decided to take Full Stack Flex Bootcamp course. I want to pivot my career and become a developer.</textarea
+            >
+          </div>
+        </div>
+
+        <!-- class col-md is a bootstrap class that allows the column to wrap when the max container width hits 768pixels -->
+
+        <div class="col-md">
+          <img
+            src="./assets/Screen Shot 2020-04-30 at 10.18.59 PM.jpg"
+            class="frame"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Made with ❤️️ by Me ©2020</small>
+      </div>
+    </footer>
+
+    <!-- Put your script tags right before the end of the body tag, so page loads before the scripts are read -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

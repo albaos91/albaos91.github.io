@@ -6,81 +6,97 @@
     margin: 0;
 } */
 
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 /* Header styling */
 
-.site-name{
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    padding-top: 20px;
-    color: white;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin: 0;
+.site-name {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  padding-top: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
-.site-name:hover{
-    background-color: blanchedalmond;
-    font-size: 30px;
-    color: black;
-
+.site-name:hover {
+  background-color: blanchedalmond;
+  font-size: 30px;
+  color: black;
 }
 
-ul{
-    position: absolute;
-    right: 60px;
+ul {
+  position: absolute;
+  right: 60px;
 }
 
 /* Body styling */
 
-body{
-    background-image: url("https://wallpaperaccess.com/full/240945.jpg");
-    background-repeat: no-repeat;
+body {
+  background-image: url("https://wallpaperaccess.com/full/240945.jpg");
+  background-repeat: no-repeat;
+  /* make your body position relative considering your footer is the child element */
+  position: relative;
 }
 
-.container{
-    position: relative;
-    width: 1191px;
+.container {
+  position: relative;
+  width: 1191px;
 }
 
-.frame{
-    width: 250px;
-    height: 300px;
-    position: absolute;
-    top: 50px;
-    left: 55%; 
-    border-radius: 25px;
+.frame {
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 25px;
 }
 
-.paper{
-    width: 350px;
-    height: 450px;
-    position: relative;
-    left: 20%;
-    border-radius: 30px;
+.paper {
+  width: 350px;
+  height: 450px;
 
+  /* position: relative; */
+  /* left: 20%; */
+  border-radius: 30px;
 }
 
-.about_me{
-    width: 315px;
-    height: 300px;
-    position: absolute;
-    left: 22%;  
-    top: 23%; 
-    background-color: transparent;
-    border: none;
-    text-align: center;
-    font-size: 11px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    color: mediumvioletred;
+.about_me {
+  width: 315px;
+  height: 300px;
+  position: absolute;
+  /* instead of using percantage for position, use pixels */
+  /* left: 22%; */
+  left: 20px;
+  top: 23%;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: mediumvioletred;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+/* Not sure if your instructor asked you not to use floats | but this allows for you to position your image with text towards the center while still using the bootstrap positioning */
+.mycontainerforimageandtextarea {
+  float: right;
+}
+
+@media screen and (max-width: 768px) {
+  .mycontainerforimageandtextarea {
+    float: left;
   }
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  /* set the position of footer to fixed | this position will be fixed to the bottom of the parents container which is body */
+  position: fixed;
+}
