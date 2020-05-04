@@ -52,6 +52,12 @@ h2{
     left: 40%;
 }
 
+input{
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
 .name{
     width: 400px;
     position: absolute;
@@ -59,14 +65,14 @@ h2{
     left: 35%;
 }
 
-.subject{
+.email{
     width: 400px;
     position: absolute;
     top: 42%;
     left: 35%;
 }
 
-.message{
+.message{ 
     width: 400px;
     height: 200px;
     position: absolute;
@@ -74,17 +80,13 @@ h2{
     left: 35%;
 }
 
-input{
-    width: 400px;
+.send {
+    width: 600px;
     height: 200px;
-    position: relative;
-}
-
-button{
-    width:100px;
     position: absolute;
     top: 80%;
-    left: 56%;
+    left: 35%;
+    border-radius: 50px;
 }
 
 
