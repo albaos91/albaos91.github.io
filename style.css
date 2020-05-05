@@ -43,7 +43,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 30px;
 }
 
 
@@ -51,7 +50,7 @@ body {
   border-radius: 50px;
   height: 200px;
   width: 250px;
-  margin-top: 50px;
+ 
 }
 
 .button1 {
@@ -60,7 +59,7 @@ body {
   border-radius: 20px;
   padding: 10px;
   font-weight: bold;
-  margin-top: 30px;
+ 
 }
 
 .button2 {
@@ -69,11 +68,11 @@ body {
   border-radius: 20px;
   padding: 10px;
   font-weight: bold;
-  margin-top: 30px;
+ 
 }
 
 footer {
-  position: fixed;
+  margin-top: 30px;
   bottom: 0;
   width: 100%;
 }
