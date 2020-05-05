@@ -29,17 +29,14 @@ body {
   color: black;
 }
 
-ul {
-  position: absolute;
-  right: 60px;
-}
+
 
 /* Body styling */
 
 body {
   background-image: url("https://wallpaperaccess.com/full/240945.jpg");
   background-repeat: no-repeat;
-  /* make your body position relative considering your footer is the child element */
+  background-size: cover;
   position: relative;
 }
 

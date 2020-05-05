@@ -29,16 +29,12 @@ body {
   color: black;
 }
 
-ul {
-  position: absolute;
-  right: 60px;
-}
 
 /* Body styling */
 
 body {
   background-image: url("https://wallpaperaccess.com/full/240945.jpg");
-  background-size: cover !important;
+  background-size: cover
   background-repeat: no-repeat;
   position: relative;
 }
@@ -47,63 +43,51 @@ body {
 
 h2 {
   text-align: center;
-  /* position: absolute; */
+  position: absolute;
+  text-outline: 23%;
+  left: 40%;
   color: blanchedalmond;
   font-weight: bold;
-  /* top: 23%; */
-  /* left: 40%; */
 }
 
 input {
-  width: 400px !important;
-  height: 50px !important;
-  /* position: relative; */
+  width: 400px
+  height: 50px 
+  position: relative;
 }
 
 .name {
-  /* width: 400px; */
-  display: flex;
-  justify-content: center;
+  
   width: 100%;
   margin-bottom: 10px;
-  /* position: absolute; */
-  /* top: 33%; */
-  /* left: 35%; */
+  position: absolute;
+  top: 33%;
+  left: 35%;
 }
 
 .email {
-  /* width: 400px; */
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  width: 400px;
   margin-bottom: 10px;
-
-  /* position: absolute; */
-  /* top: 42%; */
-  /* left: 35%; */
+  position: absolute;
+  top: 42%;
+  left: 35%;
 }
 
 .message {
-  /* width: 400px; */
-  display: flex;
-  justify-content: center;
+  width: 400px;
+  height: 200px;
   margin-bottom: 10px;
-
-  /* height: 200px; */
-  /* position: absolute; */
-  /* top: 50%; */
-  /* left: 35%; */
+  position: absolute;
+  top: 50%;
+  left: 35%;
 }
 
 .send {
-  display: flex;
-  justify-content: center;
-
-  /* width: 600px; */
-  /* height: 200px; */
-  /* position: absolute; */
-  /* top: 80%; */
-  /* left: 35%; */
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 80%;
+  left: 35%;
   border-radius: 50px;
 }
 
