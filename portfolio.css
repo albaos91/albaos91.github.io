@@ -60,7 +60,6 @@ h2 {
 }
 
 footer {
-  /* set the position of footer to fixed | this position will be fixed to the bottom of the parents container which is body */
   position: fixed;
   bottom: 0;
   width: 100%;
