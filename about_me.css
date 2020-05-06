@@ -74,9 +74,7 @@ body {
   color: mediumvioletred;
 }
 
-.mycontainerforimageandtextarea {
-  float: right;
-}
+
 
 @media screen and (max-width: 768px) {
   .mycontainerforimageandtextarea {
