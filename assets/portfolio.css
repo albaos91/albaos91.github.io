@@ -38,12 +38,7 @@ body {
   position: relative;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -53,16 +48,15 @@ h2 {
   padding: 50px;
 }
 
-.assignment {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  margin: 30px;
+  margin-bottom: 30px;
 }
 
-footer {
+.sticky-footer{
   position: fixed;
   bottom: 0;
   width: 100%;
