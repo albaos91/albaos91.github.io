@@ -38,8 +38,6 @@ body {
   position: relative;
 }
 
-
-
 h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -56,7 +54,11 @@ h2 {
   margin-bottom: 30px;
 }
 
-.sticky-footer{
+.video {
+  padding-top: 20px;
+}
+
+.sticky-footer {
   position: fixed;
   bottom: 0;
   width: 100%;
