@@ -33,8 +33,8 @@ body {
 
 body {
   background-image: url("https://wallpaperaccess.com/full/240945.jpg");
+  background-repeat: cover;
   background-size: cover;
-  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -104,10 +104,6 @@ input {
 .container {
   display: flex;
   justify-content: center;
-}
-
-.navbar {
-  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
