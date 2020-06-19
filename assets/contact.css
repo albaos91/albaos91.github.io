@@ -101,6 +101,15 @@ input {
   left: 35%;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
 
