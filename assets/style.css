@@ -44,7 +44,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 30px;
 }
 
 .my_pic {
@@ -64,6 +63,15 @@ body {
 }
 
 .button2 {
+  color: white;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.button3 {
   color: white;
   background-color: white;
   border-radius: 20px;
